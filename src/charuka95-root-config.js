@@ -23,7 +23,7 @@ registerApplication({
 
 registerApplication({
   name: "@charuka95/test-page",
-  app: () => System.import("@charuka95/ttest-page"),
+  app: () => System.import("@charuka95/test-page"),
   activeWhen: ["/"]
 });
 
